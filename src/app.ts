@@ -1,5 +1,5 @@
 import express, { Express } from "express";
-import { userRouter } from "./users/users";
+import { userRouter } from "./users/users.js";
 import { Server } from 'http';
 
 export class App {
